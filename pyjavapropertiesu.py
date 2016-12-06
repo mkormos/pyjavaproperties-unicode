@@ -41,4 +41,4 @@ def encode_unicode(value):
 
 
 def decode_unicode(value):
-    return value.decode('unicode_escape')
+    return value.decode('ascii', 'unicode_escape')
